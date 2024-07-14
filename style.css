@@ -1,0 +1,28 @@
+
+body{
+    background-image: url(pyramids.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#Clock-Container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Clock{
+    font-family: monospace;
+    font-size: 9vw;
+    font-weight: bold;
+    text-align: center;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.167);
+    width: 100%;
+}
