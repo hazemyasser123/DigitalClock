@@ -12,6 +12,7 @@ function UpdateClock() {
       clock.textContent = `${hour}:${minutes}:${secound} ${AMPM}`
 }
 
+UpdateClock();
 
 
 setInterval(() => {
